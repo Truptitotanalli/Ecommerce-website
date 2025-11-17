@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="methods" thread-count="4">
+
+<listeners>
+    <listener class-name="ReuseableComponents.Listeners"/>
+</listeners>
+
+  
+   <test name="ErrorValidation">
+    <classes>
+      <class name="Test_Framework.Ecommerce_framework.ErrorValidation"/>
+    </classes>
+  </test>
+
+</suite>
