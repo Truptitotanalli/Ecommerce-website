@@ -48,6 +48,7 @@ public void i_add_product_app_to_cart(String productName) {
 public void checkout_app_and_submit_the_order() {
 	 checkout check = ct.submitcheckout();
      check.checkoutpage("India");
+     System.out.println("push to git");
 }
 
  
