@@ -49,6 +49,7 @@ public void checkout_app_and_submit_the_order() {
 	 checkout check = ct.submitcheckout();
      check.checkoutpage("India");
      System.out.println("push to git");
+     System.out.println("push to github");
 }
 
  
