@@ -8,7 +8,6 @@ import org.testng.Assert;
 
 import Testcomponents.Project_Utilities;
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageobject.Cartpage;
 import pageobject.checkout;
@@ -50,6 +49,8 @@ public void checkout_app_and_submit_the_order() {
      check.checkoutpage("India");
      System.out.println("push to git");
      System.out.println("push to github");
+     System.out.println("push to git");
+     System.out.println("run using jenkins");
 }
 
  
